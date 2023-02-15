@@ -1,0 +1,30 @@
+body {
+  background-color: '#F6F6F6';
+  margin: 0 auto;
+  width: 300px;
+  font-family: Lato;
+  background-image: url(https://sm.ign.com/ign_de/news/t/teenage-mu/teenage-mutant-ninja-turtles-the-cowabunga-collection-has-a_yp5j.jpg);
+}
+h1 {
+  text-align: center;
+  color: white;
+  border: 1px solid grey;
+  background-color: rgb(112, 197, 0);
+}
+
+.friend-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: white;
+}
+button {
+  background: rgb(235, 66, 66);
+  padding: 10px;
+  color: white;
+  border: none;
+}
